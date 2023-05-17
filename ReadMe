@@ -1,12 +1,1 @@
-ABSTRACT
 
-Loan repayment delays can result in significant losses for banks, necessitating accurate loan outcome prediction. 
-The objective is to accurately predict whether a loan will be fully repaid or charged off, enabling the bank to make informed decisions 
-and potentially deny loans with a high likelihood of charge off. Predictions are made based on features such as current loan amounts, 
-credit scores, and annual income using a World Bank bank loan dataset. To achieve the project objectives, three machine learning models 
-are used: random forest, logistic regression, and Extreme Gradient Boosting (XGBoost). These models are well-suited for classification tasks
-and have found widespread use in loan prediction. Each model makes use of the available dataset and takes a distinct algorithmic approach to 
-uncover patterns and relationships between features and loan outcomes.Model performance is evaluated using metrics such as accuracy, 
-F1 score, precision, recall, ROC, and log loss. After hyperparameter tuning, the XGBoost model outperforms the others, with an F1 score of 0.89,AUC of 0.94 ,
-Log Loss of 0.25,Recall of 0.965, accuracy of 0.8750 and Precision of 0.843. As a result, the XGBoost model is widely regarded as the 
-most effective in classifying incoming unseen data, thereby assisting banks in determining loan approvals for customers.
